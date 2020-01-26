@@ -27,5 +27,7 @@
 
     //map activity
     <string name="drag_to_your_location">Drag the red marker to your location then click confirm</string>
+    <string name="user_phone">User Phone</string>
+    <string name="user_password">User Password</string>
 
 </resources>
