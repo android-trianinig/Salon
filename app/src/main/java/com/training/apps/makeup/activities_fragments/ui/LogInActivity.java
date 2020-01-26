@@ -16,10 +16,10 @@ import butterknife.ButterKnife;
 
 public class LogInActivity extends AppCompatActivity {
 
-    @BindView(R.id.log_in_user_phone)
-    EditText userPhoneNumber;
-    @BindView(R.id.log_in_password)
-    EditText userPassword;
+//    @BindView(R.id.log_in_user_phone)
+//    EditText userPhoneNumber;
+//    @BindView(R.id.log_in_password)
+//    EditText userPassword;
     @BindView(R.id.log_in_btn)
     Button logInBtn;
     @BindView(R.id.sign_up_btn)
@@ -40,8 +40,8 @@ public class LogInActivity extends AppCompatActivity {
 
     public void onLogInBtnClicked(View view) {
         //fot testing only
-        mUserPhone = userPhoneNumber.getText().toString();
-        mUserPassword = userPassword.getText().toString();
+//        mUserPhone = userPhoneNumber.getText().toString();
+//        mUserPassword = userPassword.getText().toString();
         if ((mUserPhone!= null && !mUserPhone.isEmpty()) && (mUserPassword != null && !mUserPassword.isEmpty())) {
             Toast.makeText(this, "phone: " + mUserPhone + " password: " + mUserPassword, Toast.LENGTH_SHORT).show();
         } else {
